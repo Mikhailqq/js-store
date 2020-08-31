@@ -1,16 +1,17 @@
 @import url('./__container/footer__container.css');
 @import url('./__social-links/footer__social-links.css');
 @import url('./__social-link/footer__social-link.css');
-@import url('');
-@import url('');
-@import url('');
-@import url('');
-
+@import url('./__about/footer__about.css');
+@import url('./__clients/foooter__clients.css');
+@import url('./__catalog/foooter__catalog.css');
+/*@import url('');
+*/
 
 .footer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

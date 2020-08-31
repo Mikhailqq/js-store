@@ -1,0 +1,6 @@
+.novelty-card__photo {
+	width: 150px;
+	object-fit: cover;
+	box-sizing: border-box;
+	padding: 10px 10px;
+}

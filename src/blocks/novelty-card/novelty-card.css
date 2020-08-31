@@ -1,0 +1,13 @@
+@import url('./__photo/novelty-card__photo.css');
+@import url('./__paragraph/novelty-card__paragraph.css');
+
+
+.novelty-card {
+	text-decoration: none;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 1px #dccfbc;
+}

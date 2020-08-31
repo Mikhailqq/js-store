@@ -1,0 +1,13 @@
+.collection__item-image {
+	max-width: 300px;
+	align-self: center;
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 350px) {
+    .collection__item-image {
+        max-width: 250px;
+        box-sizing: border-box;
+        padding: 15px 15px;
+    }
+}

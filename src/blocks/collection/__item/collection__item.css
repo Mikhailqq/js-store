@@ -1,3 +1,10 @@
 .collection__item {
-	
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    /*margin-bottom: 10px;*/
+    box-shadow: inset 0px 0px 9px 1px #dccfbc;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    border-radius: 10px;
 }

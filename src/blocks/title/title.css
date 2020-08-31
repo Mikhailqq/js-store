@@ -1,5 +1,7 @@
+@import url('./_place/title_place_footer.css');
+
 .title {
-	color:#CEB888;
+	color: #868686;
 	font-size: 32px;
 	text-align: center;
 }
