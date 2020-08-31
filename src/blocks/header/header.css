@@ -4,7 +4,8 @@
 @import url('./__basket/header__basket.css');
 
 .header {
-    position: fixed;
+    max-width: 425px;
+    /*position: fixed;*/
     z-index: 100;
     background-color: #fff;
     width: 100%;
