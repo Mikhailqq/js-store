@@ -9,32 +9,38 @@
     <meta name="description" content="jt-store">
     <link rel="shortcut icon" type="image/x-icon" href=""> <!--  <%=require('./images/favicon.ico').default%> -->
     <title>jt-store.ru</title>
-    <link rel='stylesheet' href='./style.css'> <!-- <%=htmlWebpackPlugin.files.css %> -->
+    <link rel='stylesheet' href='./pages/style.css'> <!-- <%=htmlWebpackPlugin.files.css %> -->
 </head>
 
 <body class="root">
-    <header class="header">
-        <span class="header__burger-btn">
-            <img src="" alt="">
-        </span>
+    <header class="header root__section">
+        <nav class="header__burger-btn">
+            <button class="burger-menu">
+                <span class="burger-menu__bar"></span>                
+            </button>
+        </nav>
         <a href="#" class="header__logo">
-            <img src="" alt="">
+            <img src="./images/logo.svg" alt="Логотип">
         </a>
-        <div class="header__account-container">
-            <nav class="breadcrumbs__container">
+        <!-- <div class="serach">
+            <img src="./images/search.svg">
+            <nav class="breadcrumbs-container">
                 <a href="" class="breadcrumbs__item breadcrumbs__item_active">Регистрация</a>
-                <span>/</span>
+                
                 <a href="" class="breadcrumbs__item">Вход</a>
             </nav>
-            <div class="basket">
-                <a class="basket__link" href="">
-                    <span class="basket__link-ico"></span>
-                    Корзина
-                    <span class="basket__link-num">0</span>
+        </div> -->
+            <div class="header__basket">
+                <a class="basket-link" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="27" viewBox="0 0 30 27" width="30"><path d="M1.39999 1.70001H6.60001" stroke="#dccfbc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M6.60001 1.70001L11 18.9" stroke="#dccfbc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M11.8 18.9H28.3" stroke="#dccfbc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M13.8 25.7C15.4569 25.7 16.8 24.3569 16.8 22.7C16.8 21.0432 15.4569 19.7 13.8 19.7C12.1431 19.7 10.8 21.0432 10.8 22.7C10.8 24.3569 12.1431 25.7 13.8 25.7Z" stroke="#dccfbc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M25.3 25.7C26.9568 25.7 28.3 24.3569 28.3 22.7C28.3 21.0432 26.9568 19.7 25.3 19.7C23.6431 19.7 22.3 21.0432 22.3 22.7C22.3 24.3569 23.6431 25.7 25.3 25.7Z" stroke="#dccfbc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M25.7 14.6H11.3C10.7 14.6 10.1 14.2 10 13.6L8.1 6.90001C7.9 6.00001 8.49999 5.20001 9.39999 5.20001H27.5C28.4 5.20001 29.1 6.10001 28.8 6.90001L26.9 13.6C26.9 14.2 26.4 14.6 25.7 14.6Z" stroke="#dccfbc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+                    <!-- <img src="./images/basket.svg"> -->
+                    <!-- <span class="basket__link-ico">0</span> -->
+                    
+                    <!-- <span class="basket__link-num">0</span> -->
                 </a>
             </div>
-        </div>
-        <div class="header-menu header-menu_active">
+        
+        <div class="header-menu header-menu_active" style="display: none;">
             <span class="header-menu__close">
                 <img src="" alt="">
             </span>
@@ -165,7 +171,67 @@
             </ul>
         </div>
     </section>
-    <!-- <script type="module" src="./index.js"></script>  <%= htmlWebpackPlugin.files.js %> -->
+    <section class="filter">
+        <form action="" id="" class="filter-catalog">
+            <div class="filter-catalog__item"></div>
+            <div class="filter-catalog__item"></div>
+            <div class="filter-catalog__item"></div>
+            <div class="filter-catalog__item"></div>
+            <div class="filter-catalog__item"></div>
+            <div class="filter-catalog__item"></div>
+            <div class="filter-catalog__item"></div>
+        </form>
+    </section>
+    <section class="services">
+        <div class="service__item"></div>
+        <div class="service__item"></div>
+        <div class="service__item"></div>
+        <div class="service__item"></div>
+    </section>
+    <section class="novelty">
+        
+    </section>
+    <section class="about"></section>
+    <section class="collection"></section>
+    <section class="reviews"></section>
+    <footer class="footer">
+        <div class="footer__about">
+            <p class="title_place_footer">О КОМПАНИИ</p>
+            <ul style="display: none;">
+                <li>Главная</li>
+                <li>Новости</li>
+                <li>Статьи</li>
+                <li>Гарантия качества</li>
+                <li>Вопрос-ответ</li>
+                <li>Отзывы</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+        <div class="foooter__clients">
+            <p class="title_place_footer">КЛИЕТНСКАЯ СЛУЖБА</p>
+            <ul style="display: none;">
+                <li>Главная</li>
+                <li>Новости</li>
+                <li>Статьи</li>
+                <li>Гарантия качества</li>
+                <li>Вопрос-ответ</li>
+                <li>Отзывы</li>
+                
+            </ul>
+        </div>
+        <div class="foooter__catalog ">
+            <p class="title_place_footer">КАТАЛОГ</p>
+            <ul style="display: none;">
+                <li>Главная</li>
+                <li>Новости</li>
+                <li>Статьи</li>
+                <li>Гарантия качества</li>
+                <li>Вопрос-ответ</li>
+                
+            </ul>
+        </div>  
+    </footer>
+        <script type="module" src="./index.js"></script>  <!-- <%= htmlWebpackPlugin.files.js %> -->
 </body>
 
 </html>

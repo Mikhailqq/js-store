@@ -1,0 +1,11 @@
+.header__burger-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    
+    /*height: 100vh;*/
+}
