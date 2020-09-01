@@ -36,3 +36,9 @@ $(document).ready(function(){
 		]
 	});
 });
+
+$(document).ready(function(){
+	$('.burger-menu').click(function(event){
+		$('.header-menu,.burger-menu__bar').toggleClass('active')
+});
+})

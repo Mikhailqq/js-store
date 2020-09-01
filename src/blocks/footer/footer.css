@@ -4,8 +4,8 @@
 @import url('./__about/footer__about.css');
 @import url('./__clients/foooter__clients.css');
 @import url('./__catalog/foooter__catalog.css');
-/*@import url('');
-*/
+@import url('./__copyright/footer__copyright.css');
+
 
 .footer {
     display: flex;
