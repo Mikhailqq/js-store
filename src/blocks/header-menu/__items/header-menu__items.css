@@ -1,0 +1,6 @@
+.header-menu__items {
+		display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color:  #121617;
+}
