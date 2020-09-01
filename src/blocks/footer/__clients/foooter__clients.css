@@ -1,0 +1,11 @@
+.foooter__clients {
+	margin-left: 20px;
+	margin-top: 30px;
+	color: #121617;
+	text-decoration: none;
+	border: 1px solid #121617;
+    text-decoration: none;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}

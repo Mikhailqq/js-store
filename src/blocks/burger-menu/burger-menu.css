@@ -1,0 +1,25 @@
+@import url('./__bar/burger-menu__bar.css');
+
+.burger-menu {
+	 display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  background-color:#CEB888;
+}
+
+.burger-menu:focus {
+  outline: none;
+}
+

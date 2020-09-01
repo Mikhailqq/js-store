@@ -1,0 +1,21 @@
+@import url('./__logo/header__logo.css');
+@import url('./__burger-btn/header__burger-btn.css');
+@import url('./__account-container/header__account-container.css');
+@import url('./__basket/header__basket.css');
+
+.header {
+    max-width: 425px;
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+

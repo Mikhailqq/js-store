@@ -1,0 +1,14 @@
+.is-active {
+	background: none;
+}
+
+.is-active.burger-menu__bar::before {
+  top: 0;
+  transform: rotate(45deg);
+  transition-delay: 0s, 0.3s;
+}
+
+.is-active.burger-menu__bar::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}

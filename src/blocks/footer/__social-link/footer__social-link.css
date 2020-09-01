@@ -1,0 +1,17 @@
+@import url('./_fb/footer__social-link_fb.css');
+@import url('./_inst/footer__social-link_inst.css');
+@import url('./_ok/footer__social-link_ok.css');
+@import url('./_vk/footer__social-link_vk.css');
+
+
+.footer__social-link {
+	 display: flex;
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer__social-link:last-child {
+	margin-right: 0;
+}

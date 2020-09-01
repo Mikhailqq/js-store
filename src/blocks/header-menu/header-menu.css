@@ -1,0 +1,15 @@
+@import url('./__items/header-menu__items.css');
+@import url('./__item/header-menu__item.css');
+
+.header-menu {
+width: 300px;
+display: none;
+
+}
+
+.header-menu.active {
+	display: block;
+	width: 100%;
+	height: 224px;
+	background-color: #CEB888;
+}

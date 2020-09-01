@@ -1,0 +1,13 @@
+@import url('./__item/collection__item.css');
+@import url('./__item-image/collection__item-image.css');
+@import url('./__title/collection__title.css');
+@import url('./__subtitle/collection__subtitle.css');
+@import url('./__button/collection__button.css');
+
+
+.collection {
+    margin-top: 20px;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+}

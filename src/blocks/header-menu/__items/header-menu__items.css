@@ -1,0 +1,5 @@
+.header-menu__items {
+		display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

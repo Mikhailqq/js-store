@@ -1,0 +1,9 @@
+@import url('./__cards/novelty__cards.css');
+@import url('');
+@import url('');
+
+.novelty {
+	max-width: 425px;
+	
+	box-sizing: border-box;
+}
